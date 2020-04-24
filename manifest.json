@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chupinhator",
+  "description": "Chupinha o mp3 de um video to youtube",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*.youtube.com/*", "https://*.youtube.com/*"],
+      "js": ["axios.js"]
+    }
+  ],
+
+  "permissions": [
+   "activeTab"
+   ]
+}

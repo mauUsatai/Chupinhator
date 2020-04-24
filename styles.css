@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  width: 180px;
+  padding: 5px;
+  background: linear-gradient(180deg, #167474 0%, #410442 100%);
+}
+
+div {
+  margin: 5%;
+}
+
+h1 {
+  font-weight: 400;
+  color: #ffffff85;
+}
+
+button {
+  width: 100%;
+  height: 25px;
+  margin-top: 1rem;
+  
+  background: #ffffff67;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #ffffff85;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+
+  font-size: 14px;
+  color: #ffffff85;
+  border-bottom: 2px solid #ffffff4d;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: #ffffff4d;
+}
